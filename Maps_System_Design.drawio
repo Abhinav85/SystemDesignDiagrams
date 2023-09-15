@@ -1,9 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T14:39:06.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="VfkpKoLeecV3n1GLU3DU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T14:44:09.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="i5k2ufYKWRRzo8cJHKy9" version="21.7.5" type="github">
   <diagram name="Page-1" id="XowObv_7WQQrKC6yb6CK">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-1" target="SJpZ-dtIAZ14bEME89bI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-1" target="SJpZ-dtIAZ14bEME89bI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-2" target="SJpZ-dtIAZ14bEME89bI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-2" target="SJpZ-dtIAZ14bEME89bI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-2" target="SJpZ-dtIAZ14bEME89bI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-2" value="Route Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="85" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-3" value="Graph DB&lt;br&gt;Stores the indexes as graphs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="20" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-4" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-7" target="SJpZ-dtIAZ14bEME89bI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-7" value="Location Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-8" value="Cassandra&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="395" y="275" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-9" value="Stores Location in real time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-10" value="Message Queue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="480" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-12" value="Traffic DB&lt;br&gt;NoSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-13" target="SJpZ-dtIAZ14bEME89bI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-13" value="Traffic Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-19" value="Map Image Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SJpZ-dtIAZ14bEME89bI-20" target="SJpZ-dtIAZ14bEME89bI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SJpZ-dtIAZ14bEME89bI-20" value="CDN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
